@@ -17,6 +17,7 @@ class App extends React.Component {
           <Route exact path='/event' component={Event} />
           <Route exact path='/wooder' component={Wooder} />
           <Route exact path='/waxom' component={Waxom} />
+          <Route exact path='/waxom23' component={Waxom} />
         </Switch>
       </Router>
     );
